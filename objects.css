@@ -1,0 +1,90 @@
+﻿html { height: 100%; width: 100%; }
+body { overflow-y:hidden; overflow-x:hidden; height:100%; margin:0; padding:0;
+       text-align:left; background-color:#FFFFFF; }
+
+.GUI {
+  position: relative;
+  overflow: hidden;
+  width: 1000px;
+  height: 550px;
+  background-color: #555555;
+}
+
+.GUI .layer-select .layer {
+  background-color: white;
+}
+
+.GUI .layer-select .ui-selecting {
+  background-color: #feca40;
+}
+
+.GUI .layer-select .ui-selected {
+  background-color: #f39814;
+  color: white;
+}
+
+.GUI .layer-select  {
+/*  width: 100%; */
+}
+.GUI .layer-select .group  {
+  border: 5px solid #0000FF;
+  width: 100%;
+}
+.GUI .layer-select .layer {
+  border: 1px solid #000000;
+  width: 100%;
+}
+.GUI .layer-select .layer-handle {
+  background: transparent url('Images/move.gif') no-repeat;
+  background-repeat: no-repeat;
+  width: 2em;
+  height: 1em;
+  display: block;
+  position: absolute;
+}
+.GUI .layer-select .layer-name {
+  margin-left: 2em;
+  width: 100%;
+}
+.GUI .layer-select .layer-handle {
+  background: transparent url('Images/move.gif') no-repeat;
+  background-repeat: no-repeat;
+  width: 2em;
+  height: 1em;
+  display: block;
+  position: absolute;
+}
+
+.GUI .layer-select .placeholder {
+  visibility: hidden;
+}
+
+
+.GUI .SortableTabbing {
+  background-color: #FF00FF;
+}
+
+
+
+.GUI .workspace {
+  background-color: #445566;
+  overflow: hidden;
+}
+ 
+.GUI .overlay {
+  background-color: #445566;
+  overflow: hidden;
+}
+
+
+.GUI .title-bar {
+  background-color: #0000ff;
+}
+
+.GUI .SortableTabbing-head {
+  display: inline;
+  /* float: left; */
+  white-space: nowrap;
+  background-color: #5f96c5;
+
+}
